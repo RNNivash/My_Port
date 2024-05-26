@@ -7,7 +7,13 @@ const attendance = document.getElementById('attendance')
 const investment = document.getElementById('investment')
 const weather = document.getElementById('weather')
 
+blog.addEventListener('click', () => {
+    window.open('https://github.com/RNNivash/Chat_Nests', '_blank')
+})
 
+finger.addEventListener('click', () => {
+    window.open('https://github.com/RNNivash/Finger-Dasher', '_blank')
+})
 
 online.addEventListener('click', () => {
     window.open('https://github.com/RNNivash/Eatry.git', '_blank')
